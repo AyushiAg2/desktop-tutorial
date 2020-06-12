@@ -1,0 +1,15 @@
+import random
+
+randnum = random.randint(1,101)
+
+count = 0
+guess = -99
+while(guess!=randnum)
+     guess = (int)(input("enter between 1 and 100"))
+     if guess < randnum
+         print("higher")
+     elif guess > randnum
+         print("lower")
+     else
+         print("found")
+     count = count + 1
